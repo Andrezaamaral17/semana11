@@ -1,0 +1,143 @@
+body {
+  margin: 0px;
+  background-color: rgb(255, 214, 214)6);
+  font-family: 'arimo', sans-serif;
+}
+
+.cima {
+  position: relative;
+  height: 60vh;
+  background: url('img0.jpg') no-repeat center center/cover;
+
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* sobreposição */
+}
+
+.hero h1 {
+  position: relative;
+  color: white;
+  text-align: center;
+  top: 30%;
+  transform: translateY(-50%);
+}
+
+
+.div1{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgfinal{
+  width: 200px;
+  height: 150px;
+}
+
+.divlist{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 24px;
+  gap: 24px;
+}
+
+.divlist div{
+  background-color: rgb(172, 211, 236);
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.div1 img{
+  width: 400px;
+  height: auto;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 12px 12px 12px rgba(78, 69, 69, 0.2);
+}
+h1 {
+  margin-top: 0;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+h2 {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+h4 {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 28px;
+}
+
+head {
+  margin: 0px;
+}
+
+.video {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.videoo {
+  background-color: rgb(235, 189, 225);
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  padding: 12px;
+  box-shadow: 26x 26px 26px rgba(236, 164, 209, 0.336);
+
+}
+.footer {
+  background-color: pink;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.footer .social-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.footer img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
+.footer span {
+  font-size: 16px;
+}
+.final{
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+.divmetas{
+  text-align: centerS;
+}
